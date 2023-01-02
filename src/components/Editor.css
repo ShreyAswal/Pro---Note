@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(57, 57, 255);
+}
+
+.containerFull{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin: 0 25vw; */
+}
+
+#input,#output{
+    height: 35vh;
+    width: 40vmin;
+    background-color:rgb(237, 237, 237);
+    display: flex;
+    padding: 1em;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+#output{
+    height: 35vh;
+    width: 40vmin;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    padding: 1em;
+    border: 2.3px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    color: white;
+}
+
+#input , #output{
+    font-weight: 900;
+    font-size: large;
+}
+
+.reset{
+    margin-top: 1em;
+    background-color: rgb(255, 96, 202);
+    font-size: large;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
